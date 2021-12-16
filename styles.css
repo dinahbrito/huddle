@@ -55,7 +55,7 @@ header img{
 button {
     border: none;
     border-radius: 20px;
-    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
     color:  rgba(104,75,177,1);
     font-size: .75rem;
     font-weight: 400;
@@ -116,7 +116,7 @@ footer .circle:hover {
     main {
         display: grid;
         justify-content: center;
-        margin: 4rem 5rem 0 5rem;
+        margin: 3rem 5rem 0 5rem;
     }
 
     header img {
