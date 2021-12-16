@@ -1,4 +1,5 @@
-# # [Frontend Mentor](frontendmentor.io/) - Huddle Landing Page
+# [Frontend Mentor](frontendmentor.io/) - Huddle Landing Page
+
 ![](./images/screenshot.jpg)
 
 ## The challenge
