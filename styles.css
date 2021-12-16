@@ -71,12 +71,15 @@ button:hover{
 }
 
 footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4rem;
-    max-width: 6.5rem;;
+    max-width: 6.5rem;
+    text-align: center;
 }
 
 .circle {
@@ -94,4 +97,34 @@ i {
 footer .circle:hover {
     border: 1px solid #FF52C1;
     color: #FF52C1;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+    }
+
+    main {
+        margin-top: 4rem 5rem 0 5rem;
+    }
+
+    header img {
+        max-width: 12.5rem;
+    }
+
+    .container {
+        align-items: center;
+        grid-template-columns: 1.5fr 1fr;
+        grid-gap: 3.68rem;
+        justify-content: center;
+    }
+
+    .hero-text {
+        text-align: left;
+    }
+
+    footer {
+        display: flex;
+        align-content: right;
+    }
 }
